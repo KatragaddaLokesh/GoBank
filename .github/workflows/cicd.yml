@@ -19,7 +19,7 @@ jobs:
         image: postgres
         env:
           POSTGRES_USER: root
-          POSTGRES_PASSWORD: Kashira()*
+          POSTGRES_PASSWORD: Kashira
           POSTGRES_DB: simple_bank
         ports:
           - 5432:5432
